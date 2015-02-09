@@ -281,7 +281,7 @@ npm
 
 The npm recipe runs npm install after deploy:update_code. When used with the nave
 recipe npm install runs ``nave use <ver> npm install``.
-Not it is recommended to add npm-shrinkwrap.json into version control to manage npm
+Note it is recommended to add npm-shrinkwrap.json into version control to manage npm
 dependencies::
 
   set :npm_cmd, "npm"
